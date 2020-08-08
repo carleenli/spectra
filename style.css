@@ -1,3 +1,7 @@
+body {
+    background-color: #f0ead6;
+}
+
 h1 {
     color: mediumturquoise;
     font-family: Helvetica;
@@ -11,7 +15,7 @@ h2 {
 }
 
 p {
-    color: pink;
+    color: #FF1493;
     font-family: Helvetica;
     text-align: center;
 }
