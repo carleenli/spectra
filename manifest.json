@@ -3,9 +3,12 @@
   "description" : "Base Level Extension",
   "version": "1.0",
   "browser_action": {
-    "default_popup": "matched.html",
+    "default_popup": "tracker.html",
     "default_icon": "hello_extensions.png"
   },
+  "permissions": [
+    "identity"
+  ],
   "manifest_version": 2,
   "commands": {
     "_execute_browser_action": {
@@ -13,7 +16,7 @@
         "default": "Ctrl+Shift+F",
         "mac": "MacCtrl+Shift+F"
       },
-      "description": "Opens matched.html"
+      "description": "Opens tracker.html"
     }
   }
 }
