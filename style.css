@@ -1,7 +1,6 @@
 body {
     background-color: #f0ead6;
-    width: 200px;
-    height: 300px;
+    text-align: center;
 }
 
 h1 {
@@ -20,4 +19,9 @@ p {
     color: #FF1493;
     font-family: Helvetica;
     text-align: center;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
 }
