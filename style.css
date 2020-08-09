@@ -9,16 +9,15 @@ body {
 .navbar {
     background-color: #C3C5E0;
     width: 100%;
-    height: 100px;
+    height: 115px;
+    text-align: center;
 }
 
-.navbar-right .navbar-left{
-    position: center;
+/* .navbar1 {
     height: 40px;
     width: 100%;
-    list-style-type: none;
     text-align: right;
-}
+} */
 
 h1 {
     color: black;
