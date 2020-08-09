@@ -13,11 +13,12 @@ body {
     text-align: center;
 }
 
-.navbar-right {
+.navbar-right .navbar-left{
     position: center;
     height: 40px;
     width: 100%;
-   
+    list-style-type: none;
+    display: inline;
 }
 
 h1 {
