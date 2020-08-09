@@ -1,3 +1,9 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background:  #f2f0e6;
+    margin: 0;
+    padding: 0;
+}
 
 .navbar-right{
     float: right;
@@ -15,13 +21,12 @@
     /* text-align: center; */
 }
 
-body{
-    font-family: Helvetica, sans-serif;
-    background:  #f2f0e6;
+ul {
     text-align: center;
+    
 }
 
-.box{
+/* .box{
     width: 300px;
     padding: 50px;
     position: absolute;
@@ -30,4 +35,4 @@ body{
     transform: translate(-50%, -50%);
     background: #ff8585;
     text-align: center;
-}
+} */
