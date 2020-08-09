@@ -12,7 +12,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #191919;
+    background: #f2f7c8;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ body{
      outline: none;
      color: white;
      border-radius: 30px;
-     transition: 0.25s; 
+     transition: 0.2s; 
      cursor: pointer;
  }
 
