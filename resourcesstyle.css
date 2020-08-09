@@ -21,9 +21,17 @@ body{
     /* text-align: center; */
 }
 
+h1 {
+    color: black;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: center;
+}
+
 ul {
     text-align: center;
-    
+    padding-right:50px;
+
 }
 
 /* .box{
