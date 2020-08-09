@@ -34,7 +34,7 @@ ul {
 
 }
 
-/* .box{
+.box{
     width: 300px;
     padding: 50px;
     position: absolute;
@@ -43,4 +43,4 @@ ul {
     transform: translate(-50%, -50%);
     background: #ff8585;
     text-align: center;
-} */
+}
