@@ -12,6 +12,7 @@ app.appendChild(container);
 var request = new XMLHttpRequest();
 request.open('GET', 'https://api.typeform.com/forms/RiISAHTb/responses', true);
 request.setRequestHeader('Authorization', 'Bearer ' + token);
+request.setRequestHeader('Access-Control-Allow-Origin', '*')
 request.onload = function () {
 
   // Begin accessing JSON data here
