@@ -1,18 +1,44 @@
-body {
-    background-color: #f0ead6;
+body {    
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 51%, rgba(177,249,255,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: pink;
+    width: 100%;
+    height: 50%;
     text-align: center;
 }
 
+/* .navbar-right {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+   
+} */
+
 h1 {
-    color: mediumturquoise;
+    color: black;
     font-family: Helvetica;
+    font-size: 40px;
     text-align: center;
+    
+    
 }
 
 h2 {
     color: black;
     font-family: Helvetica;
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
+}
+
+h3 {
+    color: black;
+    font-family: Helvetica;
+    text-align: center
 }
 
 p {
@@ -21,7 +47,13 @@ p {
     text-align: center;
 }
 
+ul {
+    text-align: left;
+    padding-left: 10%;
+}
+
 iframe {
-    width: 1000px;
+    width: 100%;
     height: 500px;
+    vertical-align: center;
 }
