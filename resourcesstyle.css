@@ -20,6 +20,7 @@ body{
     padding: 0;
     font-family: Helvetica, sans-serif;
     background:  #f2f0e6;
+    text-align: center;
 }
 
 .box{
@@ -29,6 +30,6 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #F9DCDC;
+    background: #ff8585;
     text-align: center;
 }
