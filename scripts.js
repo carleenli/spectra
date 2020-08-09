@@ -3,14 +3,14 @@ const { getUnpackedSettings } = require("http2");
 const app = document.getElementById('root');
 
 const logo = document.createElement('img');
-
+const token = process.env.token;
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
 app.appendChild(container);
-
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.typeform.com/forms/RiISAHTb/responses', [async, '7AgkgjDeXGQMiTpoRwZVD9GHWRtfzPZyJZY3G5xa9UMi', 'EPuJrHhZLkoHVzsLDMJ8YifPsYgNpeXjCDjaSDhnuujp']);
+request.open('GET', 'https://api.typeform.com/forms/RiISAHTb/responses', true);
+xmlhttp.setRequestHeader('Authorization', 'Bearer ' + token);
 request.onload = function () {
 
   // Begin accessing JSON data here
